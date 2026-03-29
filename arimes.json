@@ -1,0 +1,1029 @@
+{
+    "Models": [
+        {
+            "id": "Action",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Arrow",
+            "rows": [
+            ]
+        },
+        {
+            "id": "AttackPath",
+            "rows": [
+            ]
+        },
+        {
+            "id": "AttackPath_SecurityControl",
+            "rows": [
+            ]
+        },
+        {
+            "id": "AttackPath_Stakeholder",
+            "rows": [
+            ]
+        },
+        {
+            "id": "AttackPath_StakeholderSC",
+            "rows": [
+            ]
+        },
+        {
+            "id": "BusinessAsset",
+            "rows": [
+                [
+                    1,
+                    "",
+                    "Production industrielle",
+                    1,
+                    "Fabrication robotisée via PLC et robots",
+                    "",
+                    "Production industrielle automatisée"
+                ],
+                [
+                    2,
+                    "",
+                    "Supervision industrielle",
+                    1,
+                    "Pilotage via SCADA",
+                    "",
+                    ""
+                ],
+                [
+                    3,
+                    "",
+                    "Propriété intellectuelle",
+                    2,
+                    "plans robots, algorithmes",
+                    "",
+                    ""
+                ],
+                [
+                    4,
+                    "",
+                    "Données clients",
+                    2,
+                    "commandes, contrats",
+                    "",
+                    ""
+                ],
+                [
+                    5,
+                    "",
+                    "Continuité des opérations",
+                    1,
+                    "production 24/7",
+                    "",
+                    ""
+                ],
+                [
+                    6,
+                    "",
+                    "Maintenance industrielle",
+                    2,
+                    "gestion maintenance machines",
+                    "",
+                    ""
+                ],
+                [
+                    7,
+                    "",
+                    "Systèmes de contrôle industriel",
+                    2,
+                    "consignes PLC",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "BusinessAsset_SupportingAsset",
+            "rows": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    1
+                ],
+                [
+                    6,
+                    4
+                ],
+                [
+                    1,
+                    5
+                ]
+            ]
+        },
+        {
+            "id": "CategoryOfAction",
+            "rows": [
+            ]
+        },
+        {
+            "id": "CategoryOfMeasured",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Chain",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ChainAction",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ComplexityOfMeasured",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Criteria",
+            "rows": [
+            ]
+        },
+        {
+            "id": "CriteriaScale",
+            "rows": [
+            ]
+        },
+        {
+            "id": "CriteriaScaleLevel",
+            "rows": [
+            ]
+        },
+        {
+            "id": "DeadlineFormat",
+            "rows": [
+            ]
+        },
+        {
+            "id": "FearedEvent",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Fiability",
+            "rows": [
+            ]
+        },
+        {
+            "id": "GravityScale",
+            "rows": [
+                [
+                    1,
+                    "1",
+                    "faible"
+                ],
+                [
+                    2,
+                    "2",
+                    "Moderé"
+                ],
+                [
+                    3,
+                    "3",
+                    "Élevé"
+                ],
+                [
+                    4,
+                    "4",
+                    "Critique"
+                ]
+            ]
+        },
+        {
+            "id": "GravityScaleLevel",
+            "rows": [
+                [
+                    1,
+                    "Faible",
+                    "impact limité, perturbation mineure"
+                ],
+                [
+                    2,
+                    "Modéré",
+                    "perturbation partielle des services"
+                ],
+                [
+                    3,
+                    "Élevé",
+                    "perturbation importante des activités"
+                ],
+                [
+                    4,
+                    "Critique",
+                    "arrêt complet ou impact stratégique majeur"
+                ]
+            ]
+        },
+        {
+            "id": "GravityScale_GravityScaleLevel",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Impact",
+            "rows": [
+                [
+                    1,
+                    "Financier",
+                    "perte de revenus, coût de réparation"
+                ],
+                [
+                    2,
+                    "Opérationnel",
+                    "arrêt ou perturbation de la production"
+                ],
+                [
+                    3,
+                    "Juridique",
+                    "sanctions réglementaires"
+                ],
+                [
+                    4,
+                    "Réputation",
+                    "perte de confiance des partenaires"
+                ],
+                [
+                    5,
+                    "Sécurité physique",
+                    "risques pour les employés ou machines"
+                ],
+                [
+                    6,
+                    "Stratégique",
+                    "perte de propriété intellectuelle"
+                ]
+            ]
+        },
+        {
+            "id": "Impact_FearedEvent",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Indicator",
+            "rows": [
+            ]
+        },
+        {
+            "id": "KillChain",
+            "rows": [
+            ]
+        },
+        {
+            "id": "MatrixLGR",
+            "rows": [
+            ]
+        },
+        {
+            "id": "MeasuredRemediation",
+            "rows": [
+                [
+                    1,
+                    "Authentification multifactorielle pour accès VPN",
+                    "Responsable sécurité informatique (RSSI)",
+                    "Moyenne",
+                    "",
+                    "6 mois",
+                    "",
+                    "",
+                    "Réduction du risque d’accès non autorisé via VPN",
+                    "2026-03-08",
+                    "NIST Cybersecurity Framework – PR.AC / ISO 27001 A.9",
+                    "",
+                    null
+                ],
+                [
+                    2,
+                    "Segmentation réseau entre IT et OT",
+                    "Responsable infrastructure",
+                    "Élevée",
+                    "",
+                    "12 mois",
+                    "",
+                    "",
+                    "Mise en place d’une DMZ industrielle pour protéger SCADA",
+                    "2026-03-13",
+                    "ANSSI – Cybersécurité des systèmes industriels / Purdue Model",
+                    "",
+                    null
+                ],
+                [
+                    3,
+                    "Déploiement d’une solution SIEM pour la supervision",
+                    "Équipe SOC",
+                    "Moyenne",
+                    "",
+                    "6 mois",
+                    "",
+                    "",
+                    "Centralisation des logs Active Directory, ERP et SCADA",
+                    "2026-03-11",
+                    "NIST CSF – DE.CM / ISO 27001 A.12",
+                    "",
+                    null
+                ],
+                [
+                    4,
+                    "Programme de sensibilisation à la cybersécurité",
+                    "RSSI",
+                    "Faible",
+                    "",
+                    "3 mois",
+                    "",
+                    "",
+                    "Simulation phishing avec outil Gophish",
+                    "2026-03-08",
+                    "ISO 27001 A.7 / NIST CSF – PR.AT",
+                    "",
+                    null
+                ],
+                [
+                    5,
+                    "Mise en place de sauvegardes sécurisées hors ligne",
+                    "Administrateur système",
+                    "Moyenne",
+                    "",
+                    "6 mois",
+                    "",
+                    "",
+                    "Protection contre les attaques ransomware",
+                    "2026-03-08",
+                    "ISO 27001 A.12 / NIST CSF – PR.IP",
+                    "",
+                    null
+                ],
+                [
+                    6,
+                    "Sécurisation de l’application web de maintenance",
+                    "Équipe développement",
+                    "Moyenne",
+                    "",
+                    "6 mois",
+                    "",
+                    "",
+                    "Tests de vulnérabilité et déploiement WAF",
+                    "2026-03-19",
+                    "OWASP Top 10",
+                    "",
+                    null
+                ],
+                [
+                    7,
+                    "Contrôle des accès aux automates industriels PLC",
+                    "Responsable OT",
+                    "Élevée",
+                    "",
+                    "9 mois",
+                    "",
+                    "",
+                    "Limitation des accès aux techniciens autorisés",
+                    "2026-03-08",
+                    "ANSSI Guide Cybersécurité ICS / MITRE ATT&CK ICS",
+                    "",
+                    null
+                ]
+            ]
+        },
+        {
+            "id": "Mission",
+            "rows": [
+                [
+                    1,
+                    "",
+                    "l’objectif principal de l’entreprise",
+                    "On crée et fabrique des robots précis pour l'industrie, que ce soit pour l'automatisation, l'assemblage ou les systèmes mécatroniques."
+                ]
+            ]
+        },
+        {
+            "id": "Mission_BusinessAsset",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ModeOfOperating",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Motivation",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Objective",
+            "rows": [
+                [
+                    1,
+                    "Sécurisation du système d’information industriel de l’entreprise TechnoSite Industrie."
+                ]
+            ]
+        },
+        {
+            "id": "Objective_Workshop",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Participant",
+            "rows": [
+                [
+                    1,
+                    "Direction générale",
+                    "Direction générale",
+                    "définit la stratégie de l’entreprise , prend les décisions d’investissement en cybersécurité",
+                    "protection de la propriété intellectuelle , continuité d’activité",
+                    "",
+                    null
+                ],
+                [
+                    2,
+                    "Direction des Systèmes d’Information (DSI)",
+                    "Direction des Systèmes d’Information (DSI)",
+                    "",
+                    "Active Directory, serveurs , réseau informatique",
+                    "",
+                    null
+                ],
+                [
+                    3,
+                    "Responsable de la Sécurité des Systèmes d’Information (RSSI)",
+                    "Responsable de la Sécurité des Systèmes d’Information (RSSI)",
+                    "pilotage de la cybersécurité.",
+                    "analyse de risques (EBIOS)",
+                    "TechnoSite Industrie",
+                    null
+                ],
+                [
+                    4,
+                    "Responsable OT / Responsable production industrielle",
+                    "Responsable OT / Responsable production industrielle",
+                    "gestion de l’infrastructure industrielle.",
+                    "automates PLC , capteurs IoT",
+                    "",
+                    null
+                ],
+                [
+                    5,
+                    "Équipe maintenance industrielle",
+                    "Équipe maintenance industrielle",
+                    "maintenance des machines et systèmes industriels.",
+                    "maintenance PLC , accès aux systèmes OT",
+                    "",
+                    null
+                ],
+                [
+                    6,
+                    "Administrateurs systèmes et réseaux",
+                    "Administrateurs systèmes et réseaux",
+                    "exploitation technique de l’infrastructure IT",
+                    "gestion réseau",
+                    "",
+                    null
+                ],
+                [
+                    7,
+                    "Prestataire cloud SCADA",
+                    "Prestataire cloud SCADA",
+                    "hébergement et gestion de la plateforme SCADA cloud.",
+                    "disponibilité plateforme",
+                    "",
+                    null
+                ],
+                [
+                    8,
+                    "Prestataire maintenance",
+                    "Prestataire maintenance",
+                    "",
+                    "support industriel",
+                    "",
+                    null
+                ]
+            ]
+        },
+        {
+            "id": "Participant_Workshop",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Phase",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ProbabilityOfSuccess",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ROTOMetric",
+            "rows": [
+            ]
+        },
+        {
+            "id": "RPM",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Referential",
+            "rows": [
+                [
+                    1,
+                    "ISO/IEC 27001",
+                    "",
+                    "management de la sécurité de l'information",
+                    ""
+                ],
+                [
+                    2,
+                    "ISO/IEC 27005",
+                    "",
+                    "gestion des risques cyber",
+                    ""
+                ],
+                [
+                    3,
+                    "NIST Cybersecurity Framework",
+                    "",
+                    "bonnes pratiques de cybersécurité",
+                    ""
+                ],
+                [
+                    4,
+                    "Guide ANSSI cybersécurité des systèmes industriels",
+                    "",
+                    "protection des environnements OT",
+                    ""
+                ],
+                [
+                    5,
+                    "MITRE ATT&CK for ICS",
+                    "",
+                    "analyse des techniques d’attaque",
+                    ""
+                ],
+                [
+                    6,
+                    "Directive NIS2",
+                    "",
+                    "exigences réglementaires cybersécurité",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "Relevance",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Requirement",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Resource",
+            "rows": [
+            ]
+        },
+        {
+            "id": "RiskLevel",
+            "rows": [
+            ]
+        },
+        {
+            "id": "RiskOrigin",
+            "rows": [
+                [
+                    1,
+                    "Hacker opportuniste",
+                    "cybercriminel utilisant des outils automatisés"
+                ],
+                [
+                    2,
+                    "Groupe ransomware",
+                    "Organisation criminel spécialisée"
+                ],
+                [
+                    3,
+                    "Concurrent industriel",
+                    "entreprise cherchant à voler des secrets"
+                ],
+                [
+                    4,
+                    "Employé malveillant",
+                    "employé interne mécontent"
+                ],
+                [
+                    5,
+                    "Prestataire externe",
+                    "technicien maintenance avec accès"
+                ],
+                [
+                    6,
+                    "Groupe APT",
+                    "groupe soutenu par un État"
+                ],
+                [
+                    7,
+                    "Hacktiviste",
+                    "groupe militant"
+                ],
+                [
+                    8,
+                    "Attaquant physique",
+                    "intrus dans les locaux"
+                ]
+            ]
+        },
+        {
+            "id": "RiskOrigin_TargetObjective",
+            "rows": [
+                [
+                    1,
+                    1,
+                    5,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    2,
+                    2,
+                    3,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    3,
+                    3,
+                    4,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    4,
+                    4,
+                    1,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    5,
+                    5,
+                    5,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    6,
+                    6,
+                    2,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ],
+                [
+                    7,
+                    7,
+                    7,
+                    "",
+                    "",
+                    "",
+                    "",
+                    1,
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "ScaleOfLikelihood",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Stakeholder",
+            "rows": [
+                [
+                    1,
+                    "Partie prenante",
+                    "Employé",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    2,
+                    "Maintenance industrielle",
+                    "Maintenance industrielle",
+                    "",
+                    "",
+                    "",
+                    "",
+                    2,
+                    "",
+                    ""
+                ],
+                [
+                    3,
+                    "Accès VPN siège",
+                    "Partenaire",
+                    "",
+                    "",
+                    "",
+                    "",
+                    3,
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "StakeholderCategory",
+            "rows": [
+                [
+                    1,
+                    "Partie prenante",
+                    "Employé",
+                    "",
+                    1
+                ],
+                [
+                    2,
+                    "Maintenance industrielle",
+                    "Prestataire",
+                    "",
+                    1
+                ],
+                [
+                    3,
+                    "Accès VPN siège",
+                    "Partenaire",
+                    "",
+                    2
+                ],
+                [
+                    4,
+                    "Technicien PLC",
+                    "Prestataire OT",
+                    "",
+                    1
+                ]
+            ]
+        },
+        {
+            "id": "StakeholderMetric",
+            "rows": [
+            ]
+        },
+        {
+            "id": "StakeholderMetric_Criteria",
+            "rows": [
+            ]
+        },
+        {
+            "id": "StakeholderSC_Criteria",
+            "rows": [
+            ]
+        },
+        {
+            "id": "StakeholderSecurityControl",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Stakeholder_CriteriaScaleLevel",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Stakeholder_StakeholderSecurityControl",
+            "rows": [
+            ]
+        },
+        {
+            "id": "StatusOfMeasured",
+            "rows": [
+            ]
+        },
+        {
+            "id": "StrategicScenario",
+            "rows": [
+                [
+                    1,
+                    "Ransomware via phishing",
+                    "",
+                    2,
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    2,
+                    "Intrusion via application web",
+                    "",
+                    1,
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    3,
+                    "Compromission du VPN",
+                    "",
+                    5,
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    4,
+                    "Compromission du réseau",
+                    "",
+                    6,
+                    "",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "StudyConstraint",
+            "rows": [
+                [
+                    1,
+                    "entreprise TechnoSite Industrie",
+                    "2026-03-08",
+                    "2026-03-20",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "SupportingAsset",
+            "rows": [
+                [
+                    1,
+                    "",
+                    "Active Directory",
+                    "système d’authentification\ngestion comptes et accès",
+                    "Direction des Systèmes d’Information (DSI)",
+                    ""
+                ],
+                [
+                    2,
+                    "",
+                    "ERP",
+                    "application métier",
+                    "Responsable production industrielle",
+                    ""
+                ],
+                [
+                    3,
+                    "",
+                    "Serveur de messagerie",
+                    "communication , échanges internes et externes",
+                    "Direction des Systèmes d’Information",
+                    ""
+                ],
+                [
+                    4,
+                    "",
+                    "Postes utilisateurs",
+                    "matériel informatique , travail des employés",
+                    "Équipe maintenance",
+                    ""
+                ],
+                [
+                    5,
+                    "",
+                    "Robots industriels",
+                    "système mécanique , production automatisée",
+                    "Responsable OT",
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": "TargetObjective",
+            "rows": [
+                [
+                    1,
+                    "Vol de données",
+                    "exfiltration de fichiers industriels"
+                ],
+                [
+                    2,
+                    "Sabotage industriel",
+                    "modification des automates PLC"
+                ],
+                [
+                    3,
+                    "Blocage des systèmes",
+                    "attaque ransomware"
+                ],
+                [
+                    4,
+                    "Espionnage industriel",
+                    "surveillance de la production"
+                ],
+                [
+                    5,
+                    "Accès non autorisé",
+                    "prise de contrôle du réseau"
+                ],
+                [
+                    6,
+                    "Intrusion physique",
+                    "accès aux salles techniques"
+                ],
+                [
+                    7,
+                    "Perturbation du service",
+                    "interruption de la production"
+                ]
+            ]
+        },
+        {
+            "id": "TechnicalDifficulty",
+            "rows": [
+            ]
+        },
+        {
+            "id": "ThresholdValue",
+            "rows": [
+            ]
+        },
+        {
+            "id": "Workshop",
+            "rows": [
+                [
+                    1,
+                    "Atelier 1"
+                ],
+                [
+                    2,
+                    "Atelier 2"
+                ],
+                [
+                    3,
+                    "Atelier 3"
+                ],
+                [
+                    4,
+                    "Atelier 4"
+                ],
+                [
+                    5,
+                    "Atelier 5"
+                ]
+            ]
+        }
+    ],
+    "Version": "0.1"
+}
